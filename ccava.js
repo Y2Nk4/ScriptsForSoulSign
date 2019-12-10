@@ -2,7 +2,7 @@
 // @name              ccava签到
 // @namespace         https://github.com/inu1255/soulsign-chrome
 // @version           1.0.0
-// @author            Y2Nk4
+// @author            inu1255
 // @loginURL          https://www.ccava.net/login.html
 // @expire            900e3
 // @domain            www.ccava.net
@@ -33,7 +33,7 @@ exports.run = async function() {
  * return true 代表在线
  */
 exports.check = async function() {
-    var ret = await axios.get('https://www.ccava.net/Ucenter');
-	
-    return ret.status == 200;
+    var ret = await axios.get('https://www.ccava.net/zb_users/plugin/mochu_us/cmd.php?act=qiandao');
+	console.log(ret.status)
+    return !(/请登录以后再进行签到/.test(JsonData.msg));
 };
