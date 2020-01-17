@@ -1,4 +1,4 @@
 # ScriptsForSoulSign
-魂签的一些签到脚本
+Some scripts for SoulSign Chrome Extension
 
-#### 魂签插件：[Github - Soulsign-Chrome](https://github.com/inu1255/soulsign-chrome)
+#### Chrome Extension：[Github - Soulsign-Chrome](https://github.com/inu1255/soulsign-chrome)
